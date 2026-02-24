@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Dark Site</title>
+
+    <style>
+        body {
+            background-color: #111;       /* чёрный фон */
+            color: white;                 /* белый текст */
+            display: flex;                /* включаем flex */
+            justify-content: center;      /* центр по горизонтали */
+            align-items: center;          /* центр по вертикали */
+            height: 100vh;                /* на весь экран */
+            margin: 0;
+            font-family: Arial;
+            text-align: center;
+        }
+
+        .box {
+            background-color: #222;
+            padding: 40px;
+            border-radius: 15px;
+        }
+
+        .btn {
+            margin-top: 20px;
+            padding: 15px 35px;
+            background: linear-gradient(45deg, purple, red);
+            border: none;
+            border-radius: 30px;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="box">
+    <h1>youtube</h1>
+    <p>Нажми кнопку ниже</p>
+
+    <a href="https://youtube.com">
+        <button class="btn">Перейти</button>
+    </a>
+</div>
+
+</body>
+</html>
